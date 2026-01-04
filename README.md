@@ -41,8 +41,7 @@ The architecture is intentionally simple and modular so that individual steps ca
 
 The following flow represents the automated steps taken for every processed file:
 
-```mermaid
-graph TD
+```
     A[Input Video / Audio] --> B[ffmpeg: Audio Extraction]
     B --> C[Local Whisper: Python Integration]
     C --> D[Timestamped Segments]
