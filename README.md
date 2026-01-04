@@ -173,4 +173,19 @@ Possible extensions include:
 * **streaming transcription**
 * **automated evaluation metrics**
 
+## AI Use Disclosure (Required by Southbridge Policy)
+
+I used AI tools (ChatGPT) for:
+
+- Drafting parts of the architecture  
+- Refining code patterns  
+- Debugging  
+- Improving this README  
+
+However:
+
+- All code was written, refactored, tested, and verified manually  
+- All decisions (architecture, structure, fixes) were made by me  
+- No code was blindly copied  
+
 This project is open to feedback and suggestions, and I would be happy to improve or extend it based on any inputs or observations.
