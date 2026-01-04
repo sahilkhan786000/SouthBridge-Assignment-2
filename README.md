@@ -57,13 +57,21 @@ Each run creates a timestamped folder containing all intermediate files and outp
 .
 ├── src/
 │   ├── audio/          # ffmpeg audio extraction logic
+
 │   ├── transcription/  # Local Whisper (Python) integration
+
 │   ├── diarization/    # LLM-based speaker labeling
+
 │   ├── output/         # SRT and Markdown format generators
+
 │   ├── storage/        # Run management and JSON storage
+
 │   ├── utils/          # Logging and shared helpers
+
 │   ├── cli.ts          # Command-line interface entry point
+
 │   └── index.ts        # Main pipeline orchestrator
+
 │
 └── runs/
     └── <timestamp>/    # Contains all intermediate files and final outputs per run
@@ -71,7 +79,7 @@ Each run creates a timestamped folder containing all intermediate files and outp
 
 ---
 
-## LL Usage
+## LLM Usage
 
 AI is used intentionally and transparently in this project.
 
