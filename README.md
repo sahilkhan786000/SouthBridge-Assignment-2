@@ -56,25 +56,24 @@ Each run creates a timestamped folder containing all intermediate files and outp
 ## Folder Structure
 .
 ├── src/
-│   ├── audio/          # ffmpeg audio extraction logic
+    │   ├── audio/          # ffmpeg audio extraction logic
 
-│   ├── transcription/  # Local Whisper (Python) integration
+    │   ├── transcription/  # Local Whisper (Python) integration
 
-│   ├── diarization/    # LLM-based speaker labeling
+    │   ├── diarization/    # LLM-based speaker labeling
 
-│   ├── output/         # SRT and Markdown format generators
+    │   ├── output/         # SRT and Markdown format generators
 
-│   ├── storage/        # Run management and JSON storage
+    │   ├── storage/        # Run management and JSON storage
 
-│   ├── utils/          # Logging and shared helpers
+    │   ├── utils/          # Logging and shared helpers
 
-│   ├── cli.ts          # Command-line interface entry point
+    │   ├── cli.ts          # Command-line interface entry point
 
-│   └── index.ts        # Main pipeline orchestrator
+    │   └── index.ts        # Main pipeline orchestrator
 
-│
-└── runs/
-    └── <timestamp>/    # Contains all intermediate files and final outputs per run
+    │   └── runs/
+          └── <timestamp>/ # Contains all intermediate files and final outputs per run
 
 
 ---
