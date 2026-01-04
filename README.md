@@ -137,6 +137,7 @@ bun run dev <input-file> --format srt
 ```bash
 bun run build
 bun ./dist/cli.js <input-file> --format srt
+```
 
 ---
 
