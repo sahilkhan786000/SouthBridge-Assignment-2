@@ -1,4 +1,4 @@
-# SouthBridge-Assignment-2
+# 🌟 CLI Transcription Agent — TypeScript + Bun
 
 This is a simple CLI-based tool that converts audio or video files into structured transcripts with timestamps and speaker labels.  
 The project focuses on clarity, transparency, and explainability rather than building a black-box AI system.
@@ -8,7 +8,7 @@ All intermediate steps are saved so the full pipeline can be inspected and debug
 
 ---
 
-## Overview
+## 📌 Overview
 
 The goal of this project is to build a clear and understandable transcription and diarization pipeline by combining:
 - local speech-to-text using Whisper
@@ -19,7 +19,7 @@ Instead of hiding complexity, this tool exposes each stage of the process and ma
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 The system is designed as a linear pipeline where each step has a single responsibility.
 
@@ -35,7 +35,7 @@ The architecture is intentionally simple and modular so that individual steps ca
 
 ---
 
-## Pipeline Flow
+## 🔹 Pipeline Flow
 
 
 
@@ -53,7 +53,7 @@ Each run creates a timestamped folder containing all intermediate files and outp
 
 ---
 
-## Folder Structure
+## 🏗️ Folder Structure
 .
 ├── src/
     │   ├── audio/          # ffmpeg audio extraction logic
@@ -78,7 +78,7 @@ Each run creates a timestamped folder containing all intermediate files and outp
 
 ---
 
-## LLM Usage
+## 🤖 LLM Usage
 
 AI is used intentionally and transparently in this project.
 
@@ -96,7 +96,7 @@ AI is treated as a tool, not a black box. All outputs can be reviewed and valida
 
 ---
 
-## Challenges Faced & How They Were Resolved
+## 🔹Challenges Faced & How They Were Resolved
 
 ### 1. Whisper API Quota Issues
 **Problem:** OpenAI Whisper API returned quota errors.  
@@ -122,7 +122,7 @@ AI is treated as a tool, not a black box. All outputs can be reviewed and valida
 
 ---
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
 ### Prerequisites
 Bun
@@ -142,7 +142,7 @@ bun ./dist/cli.js <input-file> --format srt
 
 ---
 
-## Outputs
+## 📦 Outputs
 
 Each run creates a folder inside `runs/` containing:
 
@@ -156,7 +156,7 @@ This makes the full execution trace easy to inspect.
 
 ---
 
-## Limitations
+## 🔹Limitations
 
 * **Speaker diarization** may be inaccurate for overlapping speakers
 * **No confidence scores** are currently generated
@@ -165,7 +165,7 @@ This makes the full execution trace easy to inspect.
 
 ---
 
-## Future Improvements
+## 🔹 Future Improvements
 
 Possible extensions include:
 
@@ -175,7 +175,7 @@ Possible extensions include:
 * **streaming transcription**
 * **automated evaluation metrics**
 
-## AI Use Disclosure (Required by Southbridge Policy)
+## 🤖 AI Use Disclosure (Required by Southbridge Policy)
 
 I used AI tools (ChatGPT) for:
 
