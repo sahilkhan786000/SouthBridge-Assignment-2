@@ -132,6 +132,7 @@ ffmpeg available in PATH
 ### Development
 ```bash
 bun run dev <input-file> --format srt
+```
 
 ### Build and run
 ```bash
