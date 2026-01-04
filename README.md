@@ -125,9 +125,9 @@ AI is treated as a tool, not a black box. All outputs can be reviewed and valida
 ## How to Run the Project
 
 ### Prerequisites
-- Bun
-- Python (with Whisper installed)
-- ffmpeg available in PATH
+Bun
+Python (with Whisper installed)
+ffmpeg available in PATH
 
 ### Development
 ```bash
