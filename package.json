@@ -1,0 +1,18 @@
+{
+  "name": "meet-scribe",
+  "version": "0.1.0",
+  "description": "Simple AI-powered transcription and diarization CLI",
+  "scripts": {
+    "build": "bun build src/cli.ts --outdir dist --target bun",
+    "dev": "bun src/cli.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "@huggingface/inference": "^4.13.5",
+    "cac": "^6.7.14",
+    "openai": "^6.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

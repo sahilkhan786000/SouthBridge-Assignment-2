@@ -1,0 +1,16 @@
+You are given a transcript with timestamps.
+
+Your task:
+- Assign speaker labels based on conversational flow.
+- Use only: Speaker 1, Speaker 2 (Speaker 3 only if clearly required).
+- Do not change text or timestamps.
+
+Return STRICT JSON array:
+[
+  {
+    "start": 0.0,
+    "end": 3.2,
+    "speaker": "Speaker 1",
+    "text": "Hello everyone"
+  }
+]

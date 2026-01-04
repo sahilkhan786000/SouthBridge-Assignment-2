@@ -1,0 +1,20 @@
+{
+  "text": " Hello everyone, nice to meet you. Let me introduce myself. My name is Julie Anderson. I'm 9 years old. I'm from South Africa. I like pancakes and hot dogs. I like yellow. I like cats. Now you know more about me. I hope we can be friends!",
+  "segments": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Hello everyone, nice to meet you. Let me introduce myself. My name is Julie Anderson."
+    },
+    {
+      "start": 7,
+      "end": 16,
+      "text": "I'm 9 years old. I'm from South Africa. I like pancakes and hot dogs. I like yellow. I like cats."
+    },
+    {
+      "start": 16,
+      "end": 20,
+      "text": "Now you know more about me. I hope we can be friends!"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "start": 0,
+    "end": 7,
+    "speaker": "Speaker 1",
+    "text": "Hello everyone, nice to meet you. Let me introduce myself. My name is Julie Anderson."
+  },
+  {
+    "start": 7,
+    "end": 16,
+    "speaker": "Speaker 1",
+    "text": "I'm 9 years old. I'm from South Africa. I like pancakes and hot dogs. I like yellow. I like cats."
+  },
+  {
+    "start": 16,
+    "end": 20,
+    "speaker": "Speaker 1",
+    "text": "Now you know more about me. I hope we can be friends!"
+  }
+]
