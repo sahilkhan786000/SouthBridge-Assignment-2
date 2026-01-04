@@ -48,7 +48,7 @@ The following flow represents the automated steps taken for every processed file
     D --> E[LLM Diarization: Speaker Identification]
     E --> F[Speaker-labeled Segments]
     F --> G[Final Output: SRT / Markdown]
-
+```
 Each run creates a timestamped folder containing all intermediate files and outputs.
 
 ---
